@@ -1,2 +1,4 @@
-export const API_KEY = "bd83b056269c3a006183aa42ad2fb051";
-export const TMDB_BASE_URL = "https://api.themoviedb.org/3";
+export const Server = import.meta.env.VITE_SERVER_URL;
+export const TMDB_API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+export const TMDB_BASE_URL = import.meta.env.VITE_TMDB_BASE_URL;
+
